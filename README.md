@@ -1,20 +1,25 @@
 # Terminal Notes App
+
 A simple terminal-based note-taking application written in Python. It supports multiple users, note creation, viewing, and persistent storage to a local file.
 
+
 ## Features
+
 - Create and store notes with timestamps
 - Multi-user support with user-specific access to notes
 - View individual notes or all your notes
 - Notes are saved in a text file and reloaded on startup
 - User-friendly colored CLI output
 
+
 ## Requirements
+
 - Python 3.10+
-- requirements.txt
-Install requirements.txt with pip if needed:
+- Install requirements.txt with pip:
 ```bash
 pip install requirements.txt
 ```
+
 
 ## Getting Started
 
@@ -28,6 +33,7 @@ pip install requirements.txt
 python main.py
 ```
 
+
 ### Available Commands
 
 ```
@@ -37,6 +43,7 @@ python main.py
 4) print_all - to print all your notes
 5) help - to print this command menu
 ```
+
 
 ### Example
 
@@ -53,6 +60,7 @@ Please enter command (enter exit to stop): print_all
 - Created on 23.04.2025 10:32
 ```
 
+
 ## Data Storage
 
 Notes are saved in `notes.txt` in the following format:
@@ -60,6 +68,7 @@ Notes are saved in `notes.txt` in the following format:
 ```
 <note_id>;<note_text>;<creation_datetime>
 ```
+
 
 ## To Do
 
